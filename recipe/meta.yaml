@@ -1,5 +1,5 @@
 {% set name = "ptir5" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f76e130c9a355f81e0393b08f5cd1bc6c5cbeef388388ac72284cdd5535063f2
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: c5143325122d6625f7f74a67bd97b25c70da2e1ea15ae14234eadc7e40e5fbca
 
 build:
   number: 0
